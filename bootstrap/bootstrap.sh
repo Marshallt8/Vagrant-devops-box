@@ -35,7 +35,7 @@ fi
 pip install -U awscli
 pip install -U awsebcli
 
-#terraform
+# install terraform
 T_VERSION=$(/usr/local/bin/terraform -v | head -1 | cut -d ' ' -f 2 | tail -c +2)
 T_RETVAL=${PIPESTATUS[0]}
 
